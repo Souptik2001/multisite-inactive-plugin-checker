@@ -7,6 +7,8 @@ A WordPress `mu-plugin` to check for inactive plugins in a multisite setup.
 In single site installation checking inactive plugins is a easy task from the plugin list admin page.
 But the same thing in a multisite installation is not so much easy. If you have many sites, in that case you have to find the active plugins in all of the sites and then combine those plugins and consider all the unique plugins. Apart from that you also have to consider the network activated plugin.
 This mu-plugin creates a custom [wp-cli](https://wp-cli.org/) command to list all the inactive plugins for the multisite.
+This will be specially useful for sites having lot of plugins, which is difficult to manage manually.
+🤫 This was actually created when managing a multisite with four active sites and around 160 plugins in total.
 
 #### Usage instruction
 
