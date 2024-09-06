@@ -9,7 +9,7 @@ But the same thing in a multisite installation is not so much easy. If you have 
 
 > "Hey, hold on! I will just use `wp plugin list` command. Without the `--url` parameter will it not give us a summary of all the sites?"
 
-The answer is unfortunately no. When you use `wp plugin list` command without the `--url` parameter, it just considers the main site and displays the active or inactive status according to that. So, for example you have a plugin named `xyz` which is activated on your main site, but deactivated on your other sites, it will give the value as `true`. Which seems good, because that's what we want right? But if you activate the same plugin on some other site and deactivate it on this site, then it displays `false`! Oh no! 🙁
+The answer is unfortunately no. When you use `wp plugin list` command without the `--url` parameter, it just considers the main site and displays the active or inactive status according to that. So, for example you have a plugin named `xyz` which is activated on your main site, but deactivated on your other sites, it will give the value as `true`. Which seems good, because that's what we want right? But if you activate the same plugin on some other site and deactivate it on this site, then it displays `inactive`! Oh no! 🙁
 
 And here comes this small mu-plugin to your rescue! 🎉 -
 
